@@ -1,0 +1,105 @@
+body {
+  background-color: DeepSkyBlue;
+  font-family: "Helvetica", sans-serif;
+  color: Purple;
+}
+h1 {
+  color: orange;
+  font-family: "Times New Roman", serif;
+}
+h2 {
+  font-family: "Times New Roman", serif;
+}
+h3 {
+  font-style: italic;
+}
+a {
+  color: PaleTurquoise;
+}
+nav ul {
+  background-color: tomato;
+  border-style: solid;
+  border-color: MediumVioletRed;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: PapayaWhip;
+}
+nav ul li a {
+  text-decoration: none;
+  color: Brown;
+}
+img {
+  border-radius: 30px;
+}
+
+.topDivider {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #F5FFFA;
+  padding-bottom: 10px;
+}
+
+.stylishBox {
+  background-color: #87CEFA;
+  color: #A52A2A;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F5FFFA;
+  border-radius: 10px;
+}
+
+.someSpacing {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.smallPictures {
+  width: 100px;
+}
+
+.mediumPictures {
+  width: 200px;
+}
+
+#irelandDescription {
+  color: #003366;
+  border: 2px ridge #ccffff;
+  padding: 15px;
+  text-align: center;
+  background-color: #660066;
+}
+
+#frontPage {
+  background: #48D1CC;
+  background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
+}
+
+/**********************************
+This section is for styling tables
+***********************************/
+table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+tr {
+  background-color: PaleTurquoise;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: purple;
+}
+td {
+  color: purple;
+}
+/********************************/
