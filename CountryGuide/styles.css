@@ -87,6 +87,24 @@ This section is for class stylling
   animation-iteration-count: 1;
 }
 
+.tinyPicture {
+  height: 60px;
+  border-radius: 10px;
+}
+.card {
+  width: 100%;
+  height: 200px;
+  border: 2px solid #F0FFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.card:hover {
+  border-color: #1E90FF;
+}
+
 .niceLinks {
   text-decoration: none;
   color: #FFFAF0;
