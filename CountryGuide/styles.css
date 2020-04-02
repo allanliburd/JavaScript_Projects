@@ -35,10 +35,25 @@ nav ul li a {
   text-decoration: none;
   color: Brown;
 }
+nav ul li a:hover {
+  animation: rainbowGlow;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
 img {
   border-radius: 30px;
+  border: 2px solid white;
+}
+img:hover {
+  border: 2px dashed navy;
+  animation-name: rollOver;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
+/**********************************
+This section is for class stylling
+***********************************/
 .topDivider {
   border-top-style: solid;
   border-top-width: 2px;
@@ -65,7 +80,22 @@ img {
 }
 
 .mediumPictures {
-  width: 200px;
+  width: 100%;
+  border-radius: 100%;
+  animation-name: myFirstAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.niceLinks {
+  text-decoration: none;
+  color: #FFFAF0;
+}
+.niceLinks:hover {
+  color: #00ff7f;
+  animation-duration: 2s;
+  animation-name: rainbowGlow;
+  animation-iteration-count: infinite;
 }
 
 #irelandDescription {
@@ -74,11 +104,55 @@ img {
   padding: 15px;
   text-align: center;
   background-color: #660066;
+  animation-name: rainbowGlow;
+  animation-duration: 1.5s;
+  animation-iteration-count: 2;
 }
 
 #frontPage {
   background: #48D1CC;
   background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
+  background-size: 600w 600vw;
+  animation: slide 10s infinite linear forwards;
+}
+
+/**********************************
+This section is for keyframes
+***********************************/
+@keyframes myFirstAnimation {
+  from {
+      width: 100px;
+  }
+  to {
+      width: 300px;
+  }
+}
+
+@keyframes rainbowGlow {
+  0% {
+      color: #FFD700;
+  }
+  25% {
+      color: #FAF787;
+  }
+  50% {
+      color: #663399;
+  }
+  75% {
+      color: #eeef7f;
+  }
+  100% {
+      color: #FFD700;
+  }
+}
+
+@keyframes rollOver {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 /**********************************
