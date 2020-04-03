@@ -98,7 +98,10 @@ function loadList() {
           newToDoItem("Peppers", false);    
         }
     } else {
-        
+        newToDoItem("Toilet paper", false);
+        newToDoItem("Paper towel", false);
+        newToDoItem("Water bottles", false);
+        newToDoItem("Peppers", false);
     }
 }
 
