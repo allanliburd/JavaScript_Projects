@@ -92,10 +92,10 @@ function loadList() {
         }
         
         if (toDos.length == 0) {
-          newToDoItem("Toilet paper", false);
-          newToDoItem("Paper towel", false);
-          newToDoItem("Water bottles", false);
-          newToDoItem("Peppers", false);    
+          newToDoItem("29 squats", false);
+          newToDoItem("29 lunges", false);
+          newToDoItem("31 push-ups", false);
+          newToDoItem("31 crunches", false);    
         }
     } else {
         newToDoItem("Toilet paper", false);
